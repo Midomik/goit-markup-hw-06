@@ -585,6 +585,29 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe-container">
+          <form class="subscribe-form">
+            <label class="subscribe-form-field">
+              <span class="subscribe-title">Subscribe</span>
+              <input
+                class="subscribe-form-input"
+                type="email"
+                name="subscribe-user-email"
+                required
+                pattern="[a-zA-Zа-яА-ЯіІїЇґҐєЄ]+"
+                placeholder="E-mail"
+              />
+            </label>
+            <button type="submit" class="subscribe-submite-btn">
+              <div class="submit-btn-container">
+                <span class="submit-btn-title">Subscribe</span>
+                <svg class="icon-send" width="24px" height="20px">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </div>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>

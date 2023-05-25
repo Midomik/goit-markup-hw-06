@@ -538,6 +538,79 @@ gap: 16px;
 
 }
 
+.subscribe-container{
+  margin-left: 80px;
+}
+
+.subscribe-form{
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.subscribe-title{
+display: block;
+margin-bottom: 16px;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+
+
+}
+
+.subscribe-form-input{
+  width: 264px;
+  height: 40px;
+  border: 1px solid #FFFFFF;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+background-color: var(--bckg-color-main);
+}
+
+.subscribe-form-input::placeholder{
+font-weight: 400;
+font-size: 12px;
+line-height: 2;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+padding-left: 16px;
+}
+
+.subscribe-submite-btn{
+ display: block;
+  width: 165px;
+  height: 40px;
+ background-color:#4D5AE5 ;
+ border-radius: 4px;
+ margin-left: 24px;
+ border: none;
+ 
+}
+
+.submit-btn-container{
+ display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.submit-btn-title{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+margin-left: 24px;
+margin-top: 8px;
+margin-bottom: 8px;
+}
+
+.icon-send{
+margin-right: 24px;
+}
 /* ==========================  /FOOTER  ========================== */
 
 /* ################################# Portfolio ########################################### */
