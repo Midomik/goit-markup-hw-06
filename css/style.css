@@ -541,13 +541,6 @@ gap: 16px;
 .subscribe-container{
   margin-left: 80px;
 }
-
-.subscribe-form{
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
-}
-
 .subscribe-title{
 display: block;
 margin-bottom: 16px;
@@ -556,17 +549,30 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #FFFFFF;
+}
 
+.subscribe-form{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.subscribe-form-field{
+  margin-right: 24px;
 }
 
 .subscribe-form-input{
   width: 264px;
   height: 40px;
+  font-size: 12px;
+  line-height: 1.5; 
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  color: #ffffff;
   border: 1px solid #FFFFFF;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-border-radius: 4px;
-background-color: var(--bckg-color-main);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
 }
 
 .subscribe-form-input::placeholder{
@@ -581,21 +587,23 @@ padding-left: 16px;
 }
 
 .subscribe-submite-btn{
- display: block;
-  width: 165px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  min-width: 165px;
   height: 40px;
  background-color:#4D5AE5 ;
  border-radius: 4px;
  margin-left: 24px;
  border: none;
- 
+ font-weight: 500;
+ line-height: 1.5;
+ letter-spacing: 0.04em;
+ color: #ffffff;
 }
 
 .submit-btn-container{
- display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
+ 
 }
 .submit-btn-title{
 font-weight: 500;
@@ -609,7 +617,7 @@ margin-bottom: 8px;
 }
 
 .icon-send{
-margin-right: 24px;
+ margin-left: 16px;
 }
 /* ==========================  /FOOTER  ========================== */
 
