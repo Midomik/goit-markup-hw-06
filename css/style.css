@@ -823,6 +823,13 @@ transform: translateY(0%);
 
 /* ==========================  CONTACT FORM  ========================== */
 
+.contact-form-field-wrapper-container{
+  margin-bottom: 8px;
+}
+
+.contact-form-input-container{
+  margin-bottom: 8px;
+}
 
 .modal-form-title{
   font-weight: 500;
@@ -861,6 +868,8 @@ color:var(--bckg-customers-link)
   position: relative;
   display: block;
 }
+
+contact-form-input-container
 
 .contact-form-field-wrapper,
 .contact-form-checkbox-wraper{
