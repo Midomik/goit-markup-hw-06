@@ -860,12 +860,6 @@ letter-spacing: 0.04em;
 color:var(--bckg-customers-link)
 }
 
-.contact-form-checkbox-wraper{
-  display: flex;
-  align-items: center;
-  margin-bottom: 16px;
-  
-}
 
 .user-title{
     font-weight: 400;
@@ -954,69 +948,33 @@ color:var(--bckg-customers-link)
   border: 1px solid #4D5AE5;
 }
 
-.contact-form-checkbox{
-  appearance: none;
-  position: absolute;
+.contact-form-checkbox-container{
+  margin-bottom: 24px;
 }
 
-.contact-form-own-checkbox{
-  
-  border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 2px;
-    padding: 3px;
-    cursor: pointer;
-}
-
-.contact-form-checkmark-icon{
-  opacity: 0;
-
-}
-
-.contact-form-checkbox:focus + .user-policy-checkbox{
-  background-color: var(--checkbox-color);
-  border: none;
-  fill:#ffffff;
-  border-color: var(--checkbox-color);
-}
-
-.contact-form-checkbox:checked + .contact-form-own-checkbox > .contact-form-checkmark-icon{
-  opacity: 1;
-  
-}
-
-.contact-form-checkbox-wraper{
+.contact-form-checkbox-wraper {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color:var(--bckg-customers-link)
-
+  color: var(--bckg-customers-link);
 }
 
 .user-policy-checkbox{
-    width: 16px;
-    height: 16px;
-    border: 1px solid #2e2f42;
-    border-radius: 2px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    fill: transparent;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #2e2f42;
+  border-radius: 2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
 }
 
-.user-policy-description{
-  
-  font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    color: #8E8F99;
-    display: inline-block;
-}
-
-.policy-link{
-  text-decoration-line: underline;
-  color: #4D5AE5;
-
+.contact-form-checkbox:focus + .contact-form-checkbox-wraper  .user-policy-checkbox{
+  background-color:var(--checkbox-color);
+  border: none;
+  fill: var(--accent-color);
+  border-color: var(--checkbox-color);
 }
 
 .contact-form-submit{
