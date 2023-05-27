@@ -971,7 +971,7 @@ color:var(--bckg-customers-link)
   fill: transparent;
 }
 
-.contact-form-checkbox:focus + .contact-form-checkbox-wraper  .user-policy-checkbox{
+.contact-form-checkbox:checked + .contact-form-checkbox-wraper  .user-policy-checkbox{
   background-color:var(--checkbox-color);
   border: none;
   fill: var(--accent-color);
