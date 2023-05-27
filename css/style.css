@@ -972,7 +972,7 @@ color:var(--bckg-customers-link)
 
 }
 
-.contact-form-checkbox:checked + .user-policy-checkbox{
+.contact-form-checkbox:focus + .user-policy-checkbox{
   background-color: var(--checkbox-color);
   border: none;
   fill:#ffffff;
